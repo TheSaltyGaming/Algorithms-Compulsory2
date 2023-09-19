@@ -6,7 +6,7 @@
 using namespace std;
 
 list<int> listToSort;
-vector<int> vectorToSort {10, 34, 1234,12343,22, 34, 12,1, 0, 123};
+vector<int> vectorToSort;
 
 void Options();
 void GenerateList(int size);
@@ -18,7 +18,7 @@ void QuickSort(int low, int high);
 bool IsSorted();
 
 int Partition(int low, int high);
-double listSize = 0;
+int listSize = 0;
 
 int main(int argc, char* argv[])
 {
@@ -39,6 +39,7 @@ void GenerateList(int size)
 {
     for (int i = 0; i < size; i++)
     {
+        vectorToSort.push_back(rand() % 10000);
         listToSort.push_back(rand() % 10000);
     }
     cout << "List Generated:" << endl;
@@ -46,7 +47,7 @@ void GenerateList(int size)
 
 void PrintList()
 {
-    for (int i : listToSort)
+    for (int i : vectorToSort)
     {
         cout << i << " ";
     }
@@ -75,10 +76,8 @@ void Options()
             MergeSort();
             break;
         case 3:
-            QuickSort(0, 8);
-        for (int i = 0; i < 8; i++) {
-            cout << vectorToSort[i] << " ";
-        }
+            QuickSort(0, listSize-1);
+        PrintList();
             break;
         case 4:
             PrintList();
@@ -97,7 +96,7 @@ void Options()
 void BubbleSort()
 {
     //Base Case
-    if (listToSort.empty() || listToSort.size() == 1)
+    if (vectorToSort.empty() || vectorToSort.size() == 1)
     {
         cout << "List is empty or already sorted!" << endl;
         return;
@@ -106,9 +105,9 @@ void BubbleSort()
     bool swapped;
     do {
         swapped = false;
-        auto it1 = listToSort.begin();
+        auto it1 = vectorToSort.begin();
         auto it2 = std::next(it1);
-        while (it2 != listToSort.end()) {
+        while (it2 != vectorToSort.end()) {
             if (*it1 > *it2) {
                 std::swap(*it1, *it2);
                 swapped = true;
@@ -129,9 +128,8 @@ void MergeSort()
 void QuickSort(int low, int high)
 {
     //Base Case
-    if (vectorToSort[low]>=vectorToSort[high])
+    if (low>=high)
     {
-        cout << "List is empty or already sorted!" << endl;
         return;
     }
     else
@@ -140,7 +138,6 @@ void QuickSort(int low, int high)
         QuickSort(low, pivot-1);
         QuickSort(pivot+1, high);
     }
-
 }
 
 
@@ -151,19 +148,18 @@ bool IsSorted()
 
 int Partition(int low, int high)
 {
-    vectorToSort.assign(listToSort.begin(), listToSort.end());
     int pivot = vectorToSort[low];
     
     int count = 0;
     for (int i = low+1; i<=high; i++)
     {
-        if (vectorToSort[i] < vectorToSort[pivot])
+        if (vectorToSort[i] < pivot)
         {
             count++;
         }
     }
     int pivIndex = low + count;
-    swap(vectorToSort[pivIndex], vectorToSort[pivot]);
+    swap(vectorToSort[pivIndex], vectorToSort[low]);
 
     int i = low;
     int j = high;
