@@ -12,12 +12,14 @@ void Options();
 void GenerateList(int size);
 void PrintList();
 
+//The Sorting Algorithms
 void BubbleSort();
-void MergeSort();
+void SelectionSort(int length, int position);
 void QuickSort(int low, int high);
-bool IsSorted();
 
+//Functions used in the sorting algoritms
 int Partition(int low, int high);
+int findSmallest(int i, int j);
 int listSize = 0;
 
 int main(int argc, char* argv[])
@@ -62,7 +64,7 @@ void Options()
     int choice;
     cout << "Please select the sorting algorithm you want to use:" << endl;
     cout << "1. Bubble Sort" << endl;
-    cout << "2. Merge Sort" << endl;
+    cout << "2. Selection Sort" << endl;
     cout << "3. Quick Sort" << endl;
     cout << "4. Print Current List" << endl;
     cout << "5. Exit" << endl;
@@ -71,13 +73,15 @@ void Options()
     {
         case 1:
             BubbleSort();
+        //TODO: THIS IS FOR ALL: I NEED TO COUNT HOW LONG IT TAKES TO SORT. IN MILLISECONDS!!!! VERY IMPORTANT! YES YES PLEASE
             break;
         case 2:
-            MergeSort();
+            SelectionSort(listSize, 0);
+            PrintList();
             break;
         case 3:
             QuickSort(0, listSize-1);
-        PrintList();
+            PrintList();
             break;
         case 4:
             PrintList();
@@ -120,9 +124,20 @@ void BubbleSort()
     PrintList();
 }
 
-void MergeSort()
+void SelectionSort(int length, int position)
 {
-    
+    int minpos;
+    if (position == length)
+    {
+        //base case
+        return;
+    }
+    minpos = findSmallest(position, length-1);
+    if (minpos !=position)
+    {
+        swap(vectorToSort[position], vectorToSort[minpos]);
+    }
+    SelectionSort(length, position+1);
 }
 
 void QuickSort(int low, int high)
@@ -138,12 +153,6 @@ void QuickSort(int low, int high)
         QuickSort(low, pivot-1);
         QuickSort(pivot+1, high);
     }
-}
-
-
-bool IsSorted()
-{
-    return is_sorted(listToSort.begin(), listToSort.end());
 }
 
 int Partition(int low, int high)
@@ -178,6 +187,27 @@ int Partition(int low, int high)
         }
     }
     return pivIndex;
+}
+
+/**
+ * \brief returns the smallest element in the list
+ * \param i 
+ * \param j 
+ * \return 
+ */
+int findSmallest(int i, int j)
+{
+    int minPos;
+    if (i == j)
+    {
+        return i;
+    }
+        minPos = findSmallest(i+1, j);
+        if (vectorToSort[i] < vectorToSort[minPos])
+        {
+            minPos = i;
+        }
+    return minPos;
 }
 
 
