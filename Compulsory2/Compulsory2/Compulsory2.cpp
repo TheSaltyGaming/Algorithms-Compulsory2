@@ -5,8 +5,9 @@
 #include <random>
 using namespace std;
 
-list<int> listToSort;
 vector<int> vectorToSort;
+
+int attempts = 0;
 
 void Options();
 void GenerateList(int size);
@@ -42,7 +43,6 @@ void GenerateList(int size)
     for (int i = 0; i < size; i++)
     {
         vectorToSort.push_back(rand() % 10000);
-        listToSort.push_back(rand() % 10000);
     }
     cout << "List Generated:" << endl;
 }
