@@ -10,202 +10,48 @@
     <list default="true" id="1a3d9695-d64c-46e3-9978-78978a332f09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Compulsory2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Compulsory2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compulsory2/Compulsory2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Compulsory2/Compulsory2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< Updated upstream
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-=======
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
->>>>>>> Stashed changes
   </component>
   <component name="ProjectId" id="2VFDLD7IKw4IlO9tLqwEh1TPb4q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Anders\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Anders\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Anders\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Ander\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Ander\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Ander\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Compulsory2" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="Win32" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -216,6 +62,7 @@
         <option name="CONFIGURATION" value="Debug" />
         <option name="PLATFORM" value="x64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -226,6 +73,7 @@
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="Win32" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -236,6 +84,7 @@
         <option name="CONFIGURATION" value="Release" />
         <option name="PLATFORM" value="x64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Compulsory2/Compulsory2.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -261,13 +110,12 @@
       <workItem from="1695103946542" duration="470000" />
       <workItem from="1695104445415" duration="365000" />
       <workItem from="1695104878129" duration="243000" />
-<<<<<<< Updated upstream
       <workItem from="1695106111944" duration="2986000" />
       <workItem from="1695207596850" duration="1508000" />
-=======
-      <workItem from="1695106111944" duration="3924000" />
-      <workItem from="1695113554950" duration="2280000" />
->>>>>>> Stashed changes
+      <workItem from="1695623662122" duration="6850000" />
+      <workItem from="1695631297470" duration="78000" />
+      <workItem from="1695631391778" duration="139000" />
+      <workItem from="1695631949520" duration="1432000" />
     </task>
     <servers />
   </component>

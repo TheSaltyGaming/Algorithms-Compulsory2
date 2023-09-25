@@ -1,5 +1,6 @@
 
 #include <algorithm>
+#include <chrono>
 #include <iostream>
 #include <list>
 #include <random>
@@ -12,6 +13,7 @@ int attempts = 0;
 void Options();
 void GenerateList(int size);
 void PrintList();
+void PrintList(long time);
 
 //The Sorting Algorithms
 void BubbleSort();
@@ -22,6 +24,7 @@ void QuickSort(int low, int high);
 int Partition(int low, int high);
 int findSmallest(int i, int j);
 int listSize = 0;
+
 
 int main(int argc, char* argv[])
 {
@@ -47,6 +50,9 @@ void GenerateList(int size)
     cout << "List Generated:" << endl;
 }
 
+/**
+ * \brief Prints the list to the console
+ */
 void PrintList()
 {
     for (int i : vectorToSort)
@@ -54,6 +60,21 @@ void PrintList()
         cout << i << " ";
     }
     cout << endl << endl;
+    
+}
+/**
+ * \brief Prints the list to the console
+ * \param time The time it took to sort the list in milliseconds
+ */
+void PrintList(long time)
+{
+    for (int i : vectorToSort)
+    {
+        cout << i << " ";
+    }
+    cout << endl << endl;
+    cout << "Time Taken: " << time << " milliseconds" << endl;
+
 }
 
 /**
@@ -69,19 +90,32 @@ void Options()
     cout << "4. Print Current List" << endl;
     cout << "5. Exit" << endl;
     cin >> choice;
+    auto start = std::chrono::high_resolution_clock::now();
     switch (choice)
     {
         case 1:
-            BubbleSort();
-        //TODO: THIS IS FOR ALL: I NEED TO COUNT HOW LONG IT TAKES TO SORT. IN MILLISECONDS!!!! VERY IMPORTANT! YES YES PLEASE
+            {
+                BubbleSort();
+                auto end = std::chrono::high_resolution_clock::now();
+                auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+                PrintList(duration.count());
+            }
             break;
         case 2:
-            SelectionSort(listSize, 0);
-            PrintList();
+            {
+                SelectionSort(listSize, 0);
+                auto end = std::chrono::high_resolution_clock::now();
+                auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+                PrintList(duration.count());
+            }
             break;
         case 3:
-            QuickSort(0, listSize-1);
-            PrintList();
+            {
+                QuickSort(0, listSize-1);
+                auto end = std::chrono::high_resolution_clock::now();
+                auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+                PrintList(duration.count());
+            }
             break;
         case 4:
             PrintList();
@@ -121,7 +155,6 @@ void BubbleSort()
         }
     } while (swapped);
     cout << "List Sorted!" << endl;
-    PrintList();
 }
 
 void SelectionSort(int length, int position)
@@ -142,6 +175,7 @@ void SelectionSort(int length, int position)
 
 void QuickSort(int low, int high)
 {
+    auto start = std::chrono::high_resolution_clock::now();
     //Base Case
     if (low>=high)
     {
@@ -155,6 +189,12 @@ void QuickSort(int low, int high)
     }
 }
 
+/**
+ * \brief Partitions the array
+ * \param low low index
+ * \param high high index
+ * \return 
+ */
 int Partition(int low, int high)
 {
     int pivot = vectorToSort[low];
@@ -190,9 +230,9 @@ int Partition(int low, int high)
 }
 
 /**
- * \brief returns the smallest element in the list
- * \param i 
- * \param j 
+ * \brief returns the smallest element from i to j
+ * \param i start point
+ * \param j end point
  * \return 
  */
 int findSmallest(int i, int j)
