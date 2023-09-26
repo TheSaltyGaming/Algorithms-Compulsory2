@@ -141,17 +141,15 @@ void BubbleSort()
     }
     
     bool swapped;
+    int size = vectorToSort.size(); // Store the size of the vector
+
     do {
         swapped = false;
-        auto it1 = vectorToSort.begin();
-        auto it2 = std::next(it1);
-        while (it2 != vectorToSort.end()) {
-            if (*it1 > *it2) {
-                std::swap(*it1, *it2);
+        for (int i = 0; i < size - 1; ++i) {
+            if (vectorToSort[i] > vectorToSort[i + 1]) {
+                std::swap(vectorToSort[i], vectorToSort[i + 1]);
                 swapped = true;
             }
-            ++it1;
-            ++it2;
         }
     } while (swapped);
     cout << "List Sorted!" << endl;
