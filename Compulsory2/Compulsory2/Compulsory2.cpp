@@ -22,7 +22,7 @@ void QuickSort(int low, int high);
 
 //Functions used in the sorting algoritms
 int Partition(int low, int high);
-int findSmallest(int i, int j);
+int findSmallest(int start, int end);
 int listSize = 0;
 
 
@@ -230,22 +230,22 @@ int Partition(int low, int high)
 }
 
 /**
- * \brief returns the smallest element from i to j
- * \param i start point
- * \param j end point
+ * \brief returns the smallest element from start to end
+ * \param start start point
+ * \param end end point
  * \return 
  */
-int findSmallest(int i, int j)
+int findSmallest(int start, int end)
 {
     int minPos;
-    if (i == j)
+    if (start == end)
     {
-        return i;
+        return start;
     }
-        minPos = findSmallest(i+1, j);
-        if (vectorToSort[i] < vectorToSort[minPos])
+        minPos = findSmallest(start+1, end);
+        if (vectorToSort[start] < vectorToSort[minPos])
         {
-            minPos = i;
+            minPos = start;
         }
     return minPos;
 }
